@@ -69,10 +69,30 @@ body {
 
 /*PAGE ENTREVISTAS*/
 
+.entrevista1 {
+    color: maroon;
+    padding: 0 5%; 
+}
+
+.foto1 {
+    margin-bottom: 03%;
+}
+
+.titulo1 , .titulo2 {
+    margin-bottom: 03%;
+    text-align: center;
+
+}
+
+.p1 { margin-bottom: 03%;
+
+
+}
 
 /*PAGES CONTACTO*/
 #containForm {
 padding: 0 5%; 
+color: maroon;
 }
 
 #form {
@@ -92,7 +112,9 @@ padding: 0 5%;
 .iniciodesesion {
     display: flex;
     flex-direction: column;
+    margin-bottom: 02%;
 }
+
 
 @media screen and (max-width: 600px) {
     #form {
