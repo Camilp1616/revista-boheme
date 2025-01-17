@@ -1,208 +1,209 @@
 /* ESTILOS RESET */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    max-width: 1400px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 1400px;
 }
 
-
-ul { 
-    display: inline-block;
-    padding: 0;
-    margin: 0;
+ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
 }
 
 li {
-    list-style: none;
-    display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
-a { text-decoration: none;
 
+a {
+  text-decoration: none;
 }
-    /* ESTILOS BODY */
+
+/* ESTILOS BODY */
 body {
-    max-width: 1400%;
-    display: flex;
-    flex-direction: column;
-    background-color:mistyrose;
-    }
-
-/* ESTILOS HEADER */
-.navbar {
-    background-image: url(../images/background.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-}
-
-.headerLogo {
-    width: 80px;
+  max-width: 1400%;
+  display: flex;
+  flex-direction: column;
+  background-color: mistyrose;
+  background-size: cover;
 }
 
 /*ESTILOS INDEX*/
 #main {
-    max-width: 1200px;
-    min-height: 100vh;
-    margin: 0 auto;
-    text-align: center;
-    padding: 60px;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px;
 }
 
-.titulo1 { margin-bottom: 30px;
-    text-align: center;}
+.navbar {
+  background-image: url(../images/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+.headerLogo {
+  width: 80px;
+}
+
+.titulo1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
 
 /* PAGE MERCH */
-
-
-.img { display: flex;
-    justify-content:space-around 3px;
-    } 
-
-
-
-.merch {width: 80%;
-    border: 1px; color:black solid;
-    padding: 10px;
+.img {
+  display: flex;
+  justify-content: space-around 3px;
+  align-items: normal;
+  max-height: 90%;
+  max-width: 90%;
+  padding: 0% 0%;
+  margin: 0 0%;
+  box-sizing: border-box;
 }
 
-
 /*PAGE ENTREVISTAS*/
-
 .entrevista1 {
-    color: maroon;
-    padding: 0 5%; 
+  color: maroon;
+  padding: 0 5%;
 }
 
 .foto1 {
-    margin-bottom: 03%;
+  margin-bottom: 3%;
 }
 
-.titulo1 , .titulo2 {
-    margin-bottom: 03%;
-    text-align: center;
-
+.titulo1, .titulo2 {
+  margin-bottom: 3%;
+  text-align: center;
 }
 
-.p1 { margin-bottom: 03%;
-
-
+.p1 {
+  margin-bottom: 3%;
 }
+
 
 /*PAGES CONTACTO*/
 #containForm {
-padding: 0 5%; 
-color: maroon;
+  padding: 0 5%;
+  color: maroon;
 }
 
 #form {
-    width: 50%;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
-#form input , #form textarea{
-    margin-top: 10px;
+#form input, #form textarea {
+  margin-top: 10px;
 }
 
 #form textarea {
-    resize: none;
+  resize: none;
 }
-
 
 .iniciodesesion {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 02%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
 }
-
 
 @media screen and (max-width: 600px) {
-    #form {
-        width: 80%;
-    }
+  #form {
+    width: 80%;
+  }
 }
-
-
 /*PAGES ACERCA DE*/
-.titulo1 { text-align: center;
-font-size: medium;}
-
-.texto-acerca-de { text-align: center;
-    margin-top: 100px;
-margin-bottom: 20px;
-font-size: 20px;
+.titulo1 {
+  text-align: center;
+  font-size: medium;
 }
 
-.hablamos-de { text-align: center;
-margin-bottom: 20px;
-color: maroon;
+.texto-acerca-de {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.hablamos-de {
+  text-align: center;
+  margin-bottom: 20px;
+  color: maroon;
 }
 
 .equipo {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 .equipo__persona1--card {
-    width: 300%;
-    height: 500px;
-    border: 1px; color: black solid;
-    transition: 1s;
-    display: flex;
-    flex-direction: column;
-    }
+  width: 300%;
+  height: 500px;
+  border: 1px;
+  color: black solid;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+}
 
 .equipo__persona1--card:hover {
-padding-right: 30px;
-padding-bottom: 10px;
-filter: drop-shadow(30px 10px 4px) color maroon;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  filter: drop-shadow(30px 10px 4px) color maroon;
 }
 
-.persona1--titulo { color: maroon;
-    margin: auto;
+.persona1--titulo {
+  color: maroon;
+  margin: auto;
 }
 
-
-.persona1--perfil { background-image: url(../images/pages-acerca-de/img-profile01.jpeg);
-border-radius: 90px;
-width: 200px;
-height: 200px;
-background-size: cover;
-background-position: center;
-margin: auto;
+.persona1--perfil {
+  background-image: url(../images/pages-acerca-de/img-profile01.jpeg);
+  border-radius: 90px;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
 }
-
 
 /* ESTILOS FOOTER */
 #footer {
-    width: 100%;
-    height: 80px;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url(../images/background.jpeg);
-    background-size: cover;
-    padding: 0%;
-    margin: 0%;
-    flex-wrap: wrap;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../images/background.jpeg);
+  background-size: cover;
+  padding: 0%;
+  margin: 0%;
+  flex-wrap: wrap;
 }
 
 .footerLogo img {
-    width: 100px;
+  width: 100px;
 }
 
 .footerNav {
-    display: flex;
-    text-align: center;
+  display: flex;
+  text-align: center;
 }
 
 .footerRedes {
-    display: flex;
-    column-gap: 70px;
+  display: flex;
+  column-gap: 70px;
 }
 
-.footerRedes i { color: maroon;
-
+.footerRedes i {
+  color: maroon;
 }
+
+/*# sourceMappingURL=style.css.map */

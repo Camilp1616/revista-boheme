@@ -1,0 +1,33 @@
+/*PAGES CONTACTO*/
+#containForm {
+    padding: 0 5%; 
+    color: maroon;
+    }
+    
+    #form {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    #form input , #form textarea{
+        margin-top: 10px;
+    }
+    
+    #form textarea {
+        resize: none;
+    }
+    
+    
+    .iniciodesesion {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 02%;
+    }
+    
+    
+    @media screen and (max-width: 600px) {
+        #form {
+            width: 80%;
+        }
+    }
+    
