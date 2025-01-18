@@ -62,19 +62,11 @@ body {
     gap: 20px;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
     } 
     
     
-.merch {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    border: 1px solid black; 
-    padding: 20px; 
-    box-sizing: border-box; 
-    border-radius: 10px; 
-    background-color: #fff; 
-    }
 
     /* Estilos responsivos */
 @media (max-width: 768px) {
@@ -83,12 +75,7 @@ body {
         align-items: center;
     }
 
-    .merch {
-        width: 90%;
-        padding: 15px;
-    }
 }
-
 
 
 

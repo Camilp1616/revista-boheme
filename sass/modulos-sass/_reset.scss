@@ -3,10 +3,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    max-width: 1400px;
+    max-width: 100%;
 }
 
-ul {
+
+ul { 
     display: inline-block;
     padding: 0;
     margin: 0;
@@ -16,42 +17,14 @@ li {
     list-style: none;
     display: inline-block;
 }
+a { text-decoration: none;
 
-a {
-    text-decoration: none;
 }
-
-  /* ESTILOS BODY */
+    /* ESTILOS BODY */
 body {
-    max-width: 1400%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: mistyrose;
+    background-color:mistyrose;
     background-size: cover;
-    min-height: 100vh;
-}
-
-/*ESTILOS INDEX*/
-#main {
-    max-width: 1200px;
-    min-height: 100vh;
-    margin: 0 auto;
-    text-align: center;
-    padding: 60px;
-}
-
-.navbar {
-    background-image: url(../images/background.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-}
-
-.headerLogo {
-    width: 80px;
-}
-
-.titulo1 {
-    margin-bottom: 30px;
-    text-align: center;
-}
+    }
