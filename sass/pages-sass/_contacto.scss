@@ -1,4 +1,17 @@
 /*PAGES CONTACTO*/
+
+#main .titulo1 {margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}
+
+#main .titulo2 { margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
 #containForm {
     padding: 0 5%; 
     color: maroon;
@@ -21,10 +34,22 @@
     .iniciodesesion {
         display: flex;
         flex-direction: column;
-        margin-bottom: 02%;
+        margin-bottom: 10px;
+        margin-top: 20px;
     }
     
+    #main .titulo4 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
     
+    .fa-brands, .fa-regular {
+        font-size: 25px;
+        justify-content: space-around;
+        margin-right: 07px;
+        color: maroon;
+}
+
     @media screen and (max-width: 600px) {
         #form {
             width: 80%;

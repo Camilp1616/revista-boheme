@@ -1,21 +1,60 @@
 /*PAGE ENTREVISTAS*/
 
-.entrevista1 {
-    color: maroon;
-    padding: 0 5%; 
+.titulo1 {
+    font-size: 70px;
 }
 
-.foto1 {
+.titulo2 { margin-top: 03px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align:center;
+
+}
+.fotoE1, .fotoE2 {
     margin-bottom: 03%;
+    width: 50%;
+    height: auto; 
 }
 
-.titulo1 , .titulo2 {
-    margin-bottom: 03%;
-    text-align: center;
 
+h4 {color: maroon;
 }
 
-.p1 { margin-bottom: 03%;
+.p1, .p2 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+}
 
+.p3, .p4, .p5, .p6 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);}
 
+.titulo3 { color: maroon;
+    margin-bottom: 01px;
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.left, .right {
+    width: 50%; 
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.left {
+    background-color: lightblue; 
+}
+
+.right {
+    gap: 20px;
+    background-color: lightgreen; 
 }

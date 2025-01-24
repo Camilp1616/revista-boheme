@@ -1,11 +1,11 @@
 /*MODULOS*/
-@import "modulos-sass/reset";
-@import "modulos-sass/header";
-@import "modulos-sass/footer";
+@use "modulos-sass/reset";
+@use "modulos-sass/header";
+@use "modulos-sass/footer";
 
 /*PAGES*/
-@import "pages-sass/index";
-@import "pages-sass/merch";
-@import "pages-sass/entrevistas";
-@import "pages-sass/contacto";
-@import "pages-sass/acerca-de";
+@use "pages-sass/index";
+@use "pages-sass/merch";
+@use "pages-sass/entrevistas";
+@use "pages-sass/contacto";
+@use "pages-sass/acerca-de";
