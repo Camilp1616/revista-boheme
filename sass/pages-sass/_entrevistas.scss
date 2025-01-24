@@ -12,8 +12,8 @@
 }
 .fotoE1, .fotoE2 {
     margin-bottom: 03%;
-    width: 50%;
-    height: auto; 
+    width: 55%;
+    height: 55%; 
 }
 
 
@@ -26,14 +26,14 @@ h4 {color: maroon;
     color: rgb(0, 0, 0);
 }
 
-.p3, .p4, .p5, .p6 {
+.p3, .p4, .p5, .p6, .p7, .p8 {
     font-size: 16px;
     line-height: 1.5;
     color: rgb(0, 0, 0);}
 
 .titulo3 { color: maroon;
-    margin-bottom: 01px;
-    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .container {
@@ -50,11 +50,6 @@ h4 {color: maroon;
     overflow: auto;
 }
 
-.left {
-    background-color: lightblue; 
-}
-
 .right {
-    gap: 20px;
-    background-color: lightgreen; 
+    gap: 20px; 
 }
