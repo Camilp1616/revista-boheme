@@ -1,37 +1,32 @@
-/*PAGE ENTREVISTAS*/
-
 .titulo1 {
     font-size: 70px;
 }
 
-.titulo2 { margin-top: 03px;
+.titulo2 {
+    margin-top: 3px;
     margin-bottom: 10px;
     font-size: 20px;
-    text-align:center;
-
+    text-align: center;
 }
+
 .fotoE1, .fotoE2 {
-    margin-bottom: 03%;
+    margin-bottom: 3%;
     width: 55%;
-    height: 55%; 
+    height: auto;
 }
 
-
-h4 {color: maroon;
+h4 {
+    color: maroon;
 }
 
-.p1, .p2 {
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8 {
     font-size: 16px;
     line-height: 1.5;
     color: rgb(0, 0, 0);
 }
 
-.p3, .p4, .p5, .p6, .p7, .p8 {
-    font-size: 16px;
-    line-height: 1.5;
-    color: rgb(0, 0, 0);}
-
-.titulo3 { color: maroon;
+.titulo3 {
+    color: maroon;
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -44,12 +39,46 @@ h4 {color: maroon;
 }
 
 .left, .right {
-    width: 50%; 
+    width: 50%;
     padding: 20px;
     box-sizing: border-box;
     overflow: auto;
 }
 
-.right {
-    gap: 20px; 
+
+@media screen and (max-width: 800px) {
+    .titulo1 {
+        font-size: 40px; 
+    }
+
+    .titulo2 {
+        font-size: 16px;
+    }
+
+    .fotoE1, .fotoE2 {
+        width: 80%; 
+    }
+
+    .container {
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .left, .right {
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .titulo1 {
+        font-size: 30px; 
+    }
+
+    .titulo2 {
+        font-size: 14px; 
+    }
+
+    .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8 {
+        font-size: 14px; 
+    }
 }
